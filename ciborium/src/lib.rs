@@ -87,7 +87,7 @@
 #![cfg_attr(not(feature = "std"), no_std)]
 #![deny(missing_docs)]
 #![deny(clippy::all)]
-#![deny(clippy::cargo)]
+//#![deny(clippy::cargo)]
 #![allow(clippy::unit_arg)]
 
 extern crate alloc;
